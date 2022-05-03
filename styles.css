@@ -1,0 +1,170 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1D031C;
+
+    background-image: url("https://images.unsplash.com/photo-1457726942612-1b660c2740b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1532&q=80");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1em;
+    gap: 1em;
+}
+
+.top-wrap p{
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.nav a {
+    text-decoration: none;
+    color: #FAFFFD;
+    border: 1px solid white;
+    padding: .6em;
+    border-radius: 16px;
+}
+
+.nav a:hover {
+    background-color: #FAFFFD;
+    transition: .5s;
+    color: #1f183b;
+}
+
+.top-section {
+    padding: 10em;
+    height: 100vh;
+    color: #FAFFFD;
+}
+
+button {
+    background-color: transparent;
+    border: 1px white solid;
+    border-radius: 4px;
+    padding: 1em 2em;
+    font-weight: bold;
+    color: white;
+}
+
+button:hover {
+    background-color: #FAFFFD;
+    color:#342E37;
+    transition: .2s;
+}
+
+
+.who-we-are {
+    background-color: white;
+    padding: 10em;
+    color: black;
+;
+    font-weight: bold;
+    line-height: 2em;
+    overflow: hidden;
+    position: relative;
+}
+
+.content-bg {
+    opacity: .5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.contact-wrap {
+    position: relative;
+}
+
+
+.who-we-are h2, p{
+    color: black;
+    position: relative;
+}
+
+.our-packages {
+    margin: 0;
+    padding: 5em 2em;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    border-left: 4em solid #45315A;
+    background-color: transparent;
+
+}
+
+.our-packages .card {
+    color: #FAFFFD;
+    margin: 4em;
+    border: 1px solid #0b202793;
+    padding: 1.5em;
+    background-color: #45315A;
+}
+
+.our-packages .card p{
+    color: #fafffdc2;
+}
+
+.our-packages .card span {
+    margin-left: 40%;
+    color: #9FD356;
+}
+
+.our-packages .card p {
+    line-height: 2em;
+}
+
+.our-packages .card:hover {
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+.contact {
+    margin: 0;
+    padding: 7em;
+    background-color: #1f183b;
+    text-align: center;
+    color: #FAFFFD;
+}
+
+.contact h1 {
+    border-bottom: 3px solid #FAFFFD;
+}
+
+.copyright {
+    margin: 0;
+    padding: .1em;
+    text-align: right;
+    background-color: transparent;
+    color: #FAFFFD;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: .5em;
+}
+
+.copyright p {
+    color: white;
+}
+
+.contact-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+
+}
